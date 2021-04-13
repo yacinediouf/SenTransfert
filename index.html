@@ -1,0 +1,46 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <!-- Ceci est un commentaire -->
+        <!--
+            Ici c'est l'entête du fichier. D'où le nom "head" de la balise
+        -->
+        <meta charset="utf-8">
+
+        <!-- C'est ici qu'on importe les styles (fichiers css) -->
+        <link type="text/css" rel="stylesheet" href="style.css">
+       
+
+        <!-- C'est le titre, ce qui appraît en haut sur l'onglet au niveau du navigateur-->
+        <title>Sen Money</title>
+    </head>
+    <body>
+        <!-- Ici tu mets le corps du site-->
+
+        <!-- 
+            Disons que ceci est l'acceuil. Vu que c'est la premiere chose que l'utilisateur voit une fois connecter.
+            Donnons à ce block ( div ) la classe 'acceuil', c'est avec ça que l'on va styler le block au niveau du
+            fichier style.css
+
+            NB: REGARDE BIEN COMMENT LES BALISES SONT LES UNES DANS LES AUTRES
+        -->
+        <div class="acceuil">
+            <h1>Sen Money</h1>
+            <!--
+                Notre formulaire pour récupérer le numéro et lancer une opération
+            -->
+            <form>
+               <select id='num'></select><br/>
+                <input type="submit" value="#221#" onClick="menu()" /><!-- Le button doit être de type submit-->
+            </form>
+        </div>
+        
+        <!--
+            c'est ici que l'on importe les fichiers javascripts
+        -->
+        <script src="jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+       
+    </body>
+   
+</html>

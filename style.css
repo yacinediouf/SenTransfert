@@ -1,0 +1,15 @@
+.acceuil
+{
+    border: solid red 2px;
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    
+}
+form *
+{
+    margin: 10px;
+}
